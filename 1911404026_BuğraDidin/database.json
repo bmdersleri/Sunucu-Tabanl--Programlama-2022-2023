@@ -1,0 +1,584 @@
+{
+    "records":[
+        {
+        "id": 1,
+        "animalId": "0001", 
+        "animalType": "Manda",
+        "animalAge": 2,
+        "animalWeight" : 600,
+        "animalBait" : "Arpa",
+        "milkLiter" : 8,
+        "workerId" : 2,
+        "recordTime": "2022-11-18"
+        },
+        {
+          "id": 2,
+          "animalId": "0002", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 7,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 3,
+          "animalId": "0003", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 7,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 4,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 7,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 5,
+          "animalId": "0005", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 4,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 6,
+          "animalId": "0006", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 5,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 7,
+          "animalId": "0007", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 7,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 8,
+          "animalId": "0008", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : "600",
+          "animalBait" : "Arpa",
+          "milkLiter" : 6,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 9,
+          "animalId": "0009", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 4,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 10,
+          "animalId": "0010", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 5,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 11,
+          "animalId": "0011", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 5,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 12,
+          "animalId": "0012", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 7,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 13,
+          "animalId": "0013", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 8,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 14,
+          "animalId": "0014", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 3,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 15,
+          "animalId": "0015", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 4,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 16,
+          "animalId": "0016", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 7,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 17,
+          "animalId": "0017", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 4,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 18,
+          "animalId": "0018", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 6,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 19,
+          "animalId": "0019", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 0,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        {
+          "id": 20,
+          "animalId": "0020", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 0,
+          "workerId" : 1,
+          "recordTime": "2022-11-18"
+        },
+        { 
+          "id": 21,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Yonca",
+          "milkLiter" : 7,
+          "workerId" : 1,
+          "recordTime": "2022-11-17"
+        },
+        {
+          "id": 22,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Yonca",
+          "milkLiter" : 6,
+          "workerId" : 1,
+          "recordTime": "2022-11-16"
+        },
+        {
+          "id": 23,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 5,
+          "workerId" : 1,
+          "recordTime": "2022-11-15"
+        },
+        {
+          "id": 24,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 6,
+          "workerId" : 1,
+          "recordTime": "2022-11-14"
+        },
+        {
+          "id": 25,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 4,
+          "workerId" : 1,
+          "recordTime": "2022-11-13"
+        },
+        {
+          "id": 26,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 8,
+          "workerId" : 1,
+          "recordTime": "2022-11-12"
+        },
+        {
+          "id": 27,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 5,
+          "workerId" : 1,
+          "recordTime": "2022-11-11" 
+        },
+        {
+          "id": 28,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 5,
+          "workerId" : 1,
+          "recordTime": "2022-11-10"
+        },
+        {
+          "id": 29,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 5,
+          "workerId" : 1,
+          "recordTime": "2022-11-09"
+        },
+        {
+          "id": 30,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 4,
+          "workerId" : 1,
+          "recordTime": "2022-11-08"
+        },
+        {
+          "id": 31,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 6,
+          "workerId" : 1,
+          "recordTime": "2022-11-07"
+        },
+        {
+          "id": 32,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 8,
+          "workerId" : 1,
+          "recordTime": "2022-11-06"
+        },
+        {
+          "id": 33,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 7,
+          "workerId" : 1,
+          "recordTime": "2022-11-05"
+        },
+        {
+          "id": 34,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 6,
+          "workerId" : 1,
+          "recordTime": "2022-11-04"
+        },
+        {
+          "id": 35,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 6,
+          "workerId" : 1,
+          "recordTime": "2022-11-03"
+        },
+        {
+          "id": 36,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 3,
+          "workerId" : 1,
+          "recordTime": "2022-11-02"
+        },
+        {
+          "id": 37,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 4,
+          "workerId" : 1,
+          "recordTime": "2022-11-01" 
+        },
+        {
+          "id": 38,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 5,
+          "workerId" : 1,
+          "recordTime": "2022-10-31"
+        },
+        {
+          "id": 39,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 6,
+          "workerId" : 1,
+          "recordTime": "2022-10-30"
+        },
+        {
+          "id": 40,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 6,
+          "workerId" : 1,
+          "recordTime": "2022-10-29"
+        },
+        {
+          "id": 41,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 4,
+          "workerId" : 1,
+          "recordTime": "2022-10-28"
+        },
+        {
+          "id": 42,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 3,
+          "workerId" : 1,
+          "recordTime": "2022-10-27"
+        },
+        {
+          "id": 43,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 7,
+          "workerId" : 1,
+          "recordTime": "2022-10-26"
+        },
+        {
+          "id": 44,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 7,
+          "workerId" : 1,
+          "recordTime": "2022-10-25"
+        },
+        {
+          "id": 45,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 4,
+          "workerId" : 1,
+          "recordTime": "2022-10-24"
+        },
+        {
+          "id": 46,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 6,
+          "workerId" : 1,
+          "recordTime": "2022-10-23"
+        },
+        {
+          "id": 47,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 6,
+          "workerId" : 1,
+          "recordTime": "2022-10-22"
+        },
+        {
+          "id": 48,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 5,
+          "workerId" : 1,
+          "recordTime": "2022-10-21"
+        }, 
+        {
+          "id": 49,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 6,
+          "workerId" : 1,
+          "recordTime": "2022-10-20"
+        },
+        {
+          "id": 50,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 8,
+          "workerId" : 1,
+          "recordTime": "2022-10-19"
+        },
+        {
+          "id": 51,
+          "animalId": "0004", 
+          "animalType": "Manda",
+          "animalAge": 2,
+          "animalWeight" : 600,
+          "animalBait" : "Arpa",
+          "milkLiter" : 7,
+          "workerId" : 1,
+          "recordTime": "2022-10-19"
+        }
+    ],
+    "workers":[
+      {
+        "id": 1,
+        "workerName" : "Buğra Didin"
+      },
+      {
+        "id": 2,
+        "workerName" : "Veli Didin"
+      },
+      {
+        "id": 3,
+        "workerName" : "Ahmet Didin"
+      },
+      {
+        "id": 4,
+        "workerName" : "Mehmet Didin"
+      }
+    ]
+  
+  }
