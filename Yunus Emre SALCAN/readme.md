@@ -1,33 +1,13 @@
-## TodoAPP - Projesi 
-[Patika](https://patika.dev) PhpBasics eğitim seti için hazırladığım TodoApp uygulaması.
+#Ders içeriği :  Todo App uygulaması Admin Paneli 
+<hr>
+#Anahtar Kelimeler:  #Todoapp #MySql #Admin #Paneli
 
-![img.png](img.png)
- 
-### Neler Yaptık?
-- Roting ve İşlevles MVC Yapısı
-- Çoklu Dil Altyapısı
-- Veribanı Hazırlanması
-- Login İşlemleri
-- Profil ve Şifre Güncelleme İşlemleri
-- Todo Kategorileri (Her oturum kendi kategorisini oluşturur.)
-  - Ekleme
-  - Silme
-  - Güncelleme
-  - Listeleme
-- Yapılacaklar (Her oturum kendi listesi oluşturur.)
-  - Ekleme
-  - Güncelleme
-  - Silme
-  - Listeleme
-  - Devam Eden - Biten
-- FullCalendarAPI Entegrasyonu
-- TimeLine Gösterimi
-- İstatistikler
 
-**AdminLTE** temasını indirmek için [buraya tıklayın](https://github.com/ColorlibHQ/AdminLTE/archive/refs/tags/v3.1.0.zip)
-
-[PATİKA](https://app.patika.dev/) dev in Php dersleri çerçevesinde yaptığımız Todoapp çalışmasını içeren çalışmadır.
-
-[Patika Profilim](https://app.patika.dev/sibgat)
-
-[GitHub Profilim](https://github.com/Sibgatullahsanli)
+#süreler
+00:00 intro giriş
+00:30 Todo app uygulaması nedir 
+01:00 Klasör yapısı (MVC modeli)
+02:35 Sitenin anlatımı 
+07:25 Kodlar ve Veri tabanı 
+17:55 Sonuç 
+18:22 Bitiş
