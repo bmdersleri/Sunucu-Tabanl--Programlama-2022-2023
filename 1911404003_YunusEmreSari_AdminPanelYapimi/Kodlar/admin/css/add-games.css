@@ -1,0 +1,94 @@
+.steam-game-pages{
+    max-height: 200px;
+    min-height: 240px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+.steam-game-pages .radio{
+    width: 100%;
+    background-color: var(--back-color);
+    border-radius: 25px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 3px;
+    box-sizing: border-box;    
+    margin-bottom: 10px !important;
+    
+}
+
+.steam-game-pages h3{
+    padding: 10px 0;
+}
+
+
+
+
+.steam-page-setttings{
+    width: 100%;
+}
+
+.col-setting-row{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+
+
+.col-setting-row input{
+    width: 90%;
+    text-align: center;
+    background-color: var(--back-color);
+    color: #fff;
+}
+
+.col-setting-row h3{
+    padding: 10px 0;
+}
+
+.get-epic-ids{
+    width: 100%;
+}
+
+.epic-item{
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    background-color: var(--back-color);
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.result{
+    margin-top: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+
+
+.col{
+    width:100%;
+    min-width:0;
+    min-height: auto;
+    border-radius: 0;
+}
+
+
+.col:not(:first-of-type){
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+
+
+}

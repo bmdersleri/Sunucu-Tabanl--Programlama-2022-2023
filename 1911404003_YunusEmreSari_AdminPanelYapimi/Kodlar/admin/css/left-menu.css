@@ -1,0 +1,98 @@
+.left-menu{
+    position: fixed;
+    margin:0 20px;
+    background-color: var(--top-color);
+    width: 250px;
+    height: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    float: left;
+}
+
+
+
+
+.menu-sections{
+    width: 100%;
+    height: 100%;
+}
+
+
+.menu-sections ul{
+    width: 100%;
+}
+
+.menu-sections ul a{
+    text-decoration: none;;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.menu-sections ul li{
+    background-color: var(--back-color);
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: .25s ease-in-out; /* Animation */
+}
+
+.menu-sections ul li:hover{
+    background-color: var(--purple)
+}
+
+.menu-sections ul li span{
+    width: 40px;
+    height: 40px;
+    background-color: var(--top-color);
+    border-radius: 50px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-sections ul li i{
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+.menu-sections ul li:not(:first-of-type){
+    margin-top: 10px;
+}
+
+.menu-selected{
+    width: 100% !important;
+    background-color: var(--purple) !important;
+    display: block;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+
+.left-menu{
+    margin:0;
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+    top: 75px;
+    border-radius: 0;
+    display: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.527);
+    z-index: 999999;
+}
+    
+    
+
+}

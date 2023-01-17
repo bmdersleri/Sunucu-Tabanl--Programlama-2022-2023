@@ -1,0 +1,174 @@
+.center{
+    margin-left: 290px;
+    margin-top: 95px;
+    margin-right: 20px;
+    /* min-width: 100vh; */
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.center:after {content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}/*Kapsayamama Sorunu*/
+
+
+.container{
+    width: 100%;
+    min-width: 1000px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.sum{
+    width: calc((100% - 60px) / 4 );
+    height: 120px;
+    background-color: var(--top-color);
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.sum:not(:first-of-type){
+    margin-left: 20px;
+}
+
+.sum-icon{
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40rem;
+    float: left;
+}
+
+.sum-icon img{
+    width: 50px;
+}
+
+.sum-icon i {
+    color: var(--blue);
+}
+
+.sum-title h3{
+    font-size: 18rem;
+    color: var(--light-grey);
+    padding: 15px 0;
+}
+
+.sum-title{
+    text-align: right;
+    width: 70%;
+    height: 100%;
+    float: left;
+    font-size: 20rem;
+    color:var(--green);
+}
+
+
+
+.col{
+    width:calc((100% - 20px) / 2);
+    min-width:300px;
+    min-height: 350px;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: var(--top-color);
+    float: left;
+}
+
+.long-col{
+    min-height: 745px !important;
+}
+.col:not(:first-of-type){
+    margin-left: 20px;
+}
+
+.col:nth-child(n + 4){
+    margin-top: 20px;
+}
+
+
+.col button{
+    width: 90%;
+    margin: 25px 0 0 5%;
+}
+
+
+.col-title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.info-item{
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    background-color: var(--back-color);
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+
+
+.col{
+    width:100%;
+    min-width:0;
+    min-height: auto;
+    border-radius: 0;
+}
+
+
+.col:not(:first-of-type){
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+
+.center{
+    margin-left: 0;
+    margin-top: 85px;
+    margin-right: 0;
+    /* min-width: 100vh; */
+    width: 100%;
+    border-radius: 0;
+}
+
+.container{
+    width: 100%;
+    min-width: auto;
+}   
+
+
+
+.sum{
+    width: 100%;
+    height: 120px;
+    border-radius: 0;
+}
+
+.sum:not(:first-of-type){
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+}

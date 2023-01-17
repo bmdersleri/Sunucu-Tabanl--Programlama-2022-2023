@@ -1,0 +1,131 @@
+.game-list-section{
+  width: 70%;
+  margin: 10px 15%;
+  box-sizing: border-box;
+  background-color:var(--top-color);
+  padding: 15px;
+}
+
+
+.game-list-section:after {content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}/*Kapsayamama Sorunu*/
+
+
+.games-col{
+  width: 32%;
+  /* height: 700px; */
+  float: left;
+  box-sizing: border-box;
+}
+
+.games-col:not(:first-of-type){
+  margin-left: 1.95%;
+}
+
+.games-col .title{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  line-height: 50px;
+  display: block;
+}
+
+.game-list{
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+.game-list .browse-all{
+  width: 100%;
+  margin-top: 15px;
+  background-color: var(--back-color);
+  box-shadow: 0px 0px 5px #000;
+}
+
+.list-item{
+  width: 100%;
+  height: 60px;
+  background-color: var(--back-color);
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+  transition: .15s ease-in-out; /* Animation */
+  cursor: pointer;
+}
+
+.list-item:hover{
+  background-color: var(--top-color);
+}
+
+.list-item img{
+  height: 100%;
+  width: 106px;
+  float: left;
+}
+
+.item-info{
+  width: calc(80% - 106px);
+  height: 100%;
+  float: left;
+}
+
+.item-info .item-title{
+  padding: 12px 0 0 12px;
+  font-size: 14rem;
+  width: calc(100% - 12px);
+}
+
+.item-info .item-store{
+  padding: 4px 12px;
+  width: calc(100% - 24px);
+  color: var(--dark-grey);
+  font-weight: 400;
+  font-size: 12rem;
+
+}
+
+.list-item .item-price{
+  width: 20%;
+  height: 100%;
+  justify-content: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  font-size: 18rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+.game-list-section{
+  width: 100%;
+  margin: 0;
+}
+
+.games-col{
+  width: 100%;
+  margin-left: 0;
+}
+
+.games-col:not(:first-of-type){
+  margin-left: 0;
+}
+
+.games-col .title{
+  line-height: 30px;
+  display: block;
+}
+
+
+}

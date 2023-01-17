@@ -1,0 +1,59 @@
+
+.update-col{
+    width: calc((100% - 20px) / 2 );
+    padding: 20px ;
+    box-sizing: border-box;
+    background-color: var(--top-color);
+    border-radius: 5px;
+    float: left;
+}
+
+.update-col:not(:first-of-type){
+    margin-left: 20px;
+}
+
+.update-settings-row{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.update-settings-row button{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.settings-item h3{
+    color: var(--light-grey);
+}
+
+.settings-item input{
+    margin-top: 10px;
+    background-color: var(--back-color);
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+.container{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.update-col{
+    width: 100%;
+    border-radius: 0;
+}
+
+.update-col:not(:first-of-type){
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.center{
+    margin-top: 75px;
+}
+
+}

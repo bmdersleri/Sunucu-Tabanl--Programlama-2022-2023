@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+  font-family: "Lato";
+  --top-color:#282828;
+  /* --top-color:red; */
+  --back-color:#181818;
+  --purple:#A33CFF;
+  --light-purple:#8758ff;
+  --light-grey:#7e7e7e;
+  --lightest-grey:#adadad;
+  --dark-grey:#ffffff33;
+  --blue:#279AF1;
+  --light-blue:#5CB8E4;
+  --green:#07DA74;
+  --red:#FF686B;
+  --green-rgb:7, 218, 116;
+  --red-rgb:255, 104, 107;
+  color: #fff;
+}
+
+html{
+  font-size: 1px;
+}
+
+
+
+
+ul,li,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-size: 14px;
+  font-weight: normal;
+  background-color: var(--back-color) !important;
+}
+
+
+
+
+
+
+
+.btn-with-radius{
+  width: 50%;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background-color: var(--purple);
+  cursor: pointer;
+  transition: .1s ease-in-out; /* Animation */
+}
+
+.btn-with-radius a{
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.btn-with-radius:focus{
+  outline: 3px solid var(--blue);
+}
+
+
+
+
+
+.btn-cornered{
+  height: 35px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.blue-back{
+  background-color: var(--blue);
+}
+
+.purple-back{
+  background-color: var(--purple);
+}
+
+.btn-width-150{
+  width: 150px;
+}
+
+.anim-active-scale{
+  transition: .15s ease-in-out; /* Animation */
+}
+
+.anim-active-scale:active{
+  transform: scale(0.95);
+}
+
+
+.anim-hover-bright{
+  transition: filter 0.5s;
+}
+
+.anim-hover-bright:hover{
+  transition: filter 0.5s;
+  filter: brightness(1.2);
+}
+
+
+
+
+
+.input-rounded{
+  width: 250px;
+  height: 35px;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: white;
+  outline: none;
+  color: var(--back-color);
+  border: none;
+  font-weight: bold;
+}
+
+.textarea-base{
+  width: 400px;
+  height: 250px;
+  font-size: 16px;
+  border: none;
+  font-weight: bold;
+  outline: none;
+  color: var(--top-color);
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+
+.wrap-text{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

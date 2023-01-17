@@ -1,0 +1,500 @@
+.game-page-section{
+  width: 100%;
+  margin: 10px 0;
+  box-sizing: border-box;
+  float: none;
+}
+
+.top-section:after {content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+} 
+
+.game-image{
+  width: 30%;
+  height: 300px;
+  margin-left: 15%;
+  background-color: var(--top-color);
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+  overflow: hidden;
+}
+
+.game-image img{
+  width: 100%;
+  height: calc(100%);
+  object-fit: cover;
+  /* box-shadow: 0px 10px 10px var(--purple-color); */
+}
+
+
+
+
+.game-info{
+  width: calc(40% - 10px);
+  height: 300px;
+  margin-left: 10px;
+  background-color: var(--top-color);
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.game-info .game-name{
+  font-size: 30rem;
+  color: var(--grey);
+  margin: 0;
+}
+
+.game-info .game-desc{
+  margin-top: 10px;
+  color: var(--light-grey);
+  font-size: 16rem;
+}
+
+.game-info .min-info{
+  color: var(--light-grey);
+  position: absolute;
+  bottom: 0;
+  margin-top: 25px;
+  font-size: 14rem;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+
+
+
+.center-section{
+  display: block;
+}
+
+
+.center-section:after {content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*Kapsayamama Sorunu*/
+
+
+.center-left-section{
+  width: 50%;
+  margin-left: 15%;
+  float: left;
+}
+
+.game-editions{
+  width: 100%;
+  background-color: var(--top-color);
+  height: 60px;
+  padding: 10px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.game-editions ul{
+  width: 100%;
+  height: 100%;
+  justify-content:flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.game-editions a{
+  padding: 5px 10px;
+}
+
+.game-editions ul li{
+  width: auto;
+  padding: 7px 15px;
+  font-size: 17px;
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+  cursor: pointer;
+  font-weight: bold;
+  transition: .25s ease-in-out;
+  border-radius: 25px;
+  border: 1px solid var(--dark-grey);
+}
+
+.game-editions ul li:not(:first-of-type){
+  margin-left: 20px;
+}
+
+.game-editions ul li:hover{
+  background-color: white;
+  color: var(--top-color);
+}
+
+.edition-selected{
+  background-color: white;
+  color: var(--top-color);
+}
+
+
+
+
+
+
+.game-prices{
+  width: 100%;
+  background-color: var(--top-color);
+  margin-top: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  float: left;
+}
+
+
+.game-prices:after {content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+.price{
+  width: 100%;
+  height: 50px;
+  padding: 10px 0;
+  transition: .2s ease-in-out;
+  background-color: var(--top-color);
+  cursor: pointer;
+  position: relative;
+}
+
+.price-image{
+  width: 10%;
+  height: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  float: left;
+}
+
+.price-image img{
+  height: 40px;
+}
+
+.price-name{
+  width: 40%;
+  height: 100%;
+  font-size: 16rem;
+  font-weight: bold;
+  float: left;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  color: var(--light-grey);
+}
+
+.price-text{
+  width: 25%;
+  height: 100%;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 21rem;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  float: left;
+}
+
+.price-text h5{
+  font-size: 17rem;
+  margin-right: 15px;
+  text-decoration: line-through;
+  color: var(--red);
+}
+
+.price-text h5 span{
+  color: var(--red);
+}
+
+.price button{
+  float: left;
+  width: calc(25% - 10px);
+  right: 10px;
+  margin-top: 5px;
+  height: 40px;
+  position: absolute;
+}
+
+
+.price:hover > .go-website > .go-button{
+  box-shadow: 0px 2px 10px var(--purple-color);
+}
+
+
+
+
+
+
+
+.game-description-images{
+  width: 100%;
+  margin: 10px 0;
+  float: left;
+  background-color: var(--top-color);
+}
+.game-description-images:after {content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*Kapsayamama Sorunu*/
+
+.game-description-images .swiper{
+  width: 100%;
+  height: 400px;
+}
+
+.game-description-images img{
+  height: 400px !important;
+  width: 100%;
+  object-fit: cover;
+}
+
+.game-description-images .swiper-pagination{
+  bottom: 0 !important;
+}
+
+.game-description-images .description{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 16rem;
+  min-height: 200px;
+  color: var(--light-grey);
+}
+
+.description img{
+  object-fit: contain;
+  margin: 10px 0;
+}
+
+
+
+
+
+.game-detail-info{
+  width: calc(20% - 10px);
+  margin: 0 10px;
+  padding-bottom: 10px;
+  background-color: var(--top-color);
+  float: left;
+}
+
+.game-detail-info img{
+  width: 100%;
+}
+
+.game-detail-swiper{
+  width: 100%;
+  height: 200px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.game-detail-swiper .swiper-wrapper{
+  width: 100%;
+  height: 200px;
+  padding: 0 !important;
+  margin: 0 !important;
+  position: relative;
+}
+
+.game-detail-swiper .swiper-slide{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: black;
+}
+
+.game-detail-swiper .swiper-slide img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.game-detail-swiper .swiper-pagination{
+  left: 0 !important;
+  text-align: center;
+  width: 100% !important;
+  right: 0 !important;
+  bottom: 15px !important;
+}
+
+.game-detail-swiper .swiper-button{
+  color: #fff;
+}
+
+.game-detail-swiper .swiper-pagination-bullet-active{
+  background-color: var(--blue) !important;
+  opacity: 1 !important;
+}
+.game-detail-swiper  .swiper-pagination-bullet{
+  background-color: white;
+  opacity: 0.2;
+}
+
+
+
+.detail-info{
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+
+.info-item{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.info-item h4{
+  color: var(--light-grey);
+  padding-bottom: 5px;
+}
+
+.info-item span{
+  line-height: 30px;
+  color: var(--lightest-grey);
+  margin-left: 5px;
+}
+
+
+.info-item-list .list-item{
+  border: 1px solid var(--lightest-grey);
+  padding: 5px 10px;
+  color: var(--lightest-grey);
+  border-radius: 20px;
+  margin: 5px;
+  float: left;
+}
+
+
+
+
+
+
+
+.comments{
+  width: 70%;
+  height: 400px;
+  background-color: var(--top-color);
+  margin: 10px 15%;
+  padding: 2%;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.comments h2{
+  text-align: center;
+  color: var(--grey);
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+.game-image{
+  width: 100%;
+  margin-left: 0%;
+  padding: 20px;
+}
+
+
+
+.game-info{
+  width: 100%;
+  margin-left: 0;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.game-info .min-info{
+  color: var(--light-grey);
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5px;
+}
+
+
+
+.center-left-section{
+  width: 100%;
+  margin-left: 0%;
+  float: left;
+}
+
+
+
+
+
+
+.price{
+  width: 100%;
+  height: 50px;
+}
+
+.price-image{
+  width: 8%;
+}
+
+.price-image img{
+  height: 30px;
+  padding-right: 10px;
+}
+
+.price-name{
+  width: 42%;
+}
+
+.price-text{
+  width: 25%;
+  height: 100%;
+  margin: 0;
+  padding-right: 25px;
+}
+
+.price-text h5{
+  font-size: 14rem;
+  margin: 50px 0 0 25px;
+}
+
+.price button{
+  width: calc(25% - 10px);
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+.game-detail-info{
+  width: 100%;
+  margin: 0;
+}
+
+
+
+}

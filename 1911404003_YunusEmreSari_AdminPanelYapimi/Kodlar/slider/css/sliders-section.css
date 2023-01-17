@@ -1,0 +1,316 @@
+.sliders-section{
+    width: 70%;
+    margin: 10px 15%;
+    box-sizing: border-box;
+    height: 400px;
+    background-color:var(--top-color);
+    padding: 15px;
+  z-index: 0 !important;
+
+}
+
+.swiper-slide {
+    display: inline-block;
+}
+
+.slider-left{
+    width: 60%;
+    float: left;
+}
+
+
+.slider-right{
+    width: 39%;
+    height: 100%;
+    margin-left: 1%;
+    float: left;
+}
+
+
+
+.top-swiper{
+    width: 100%;
+    height: 100%;
+}
+
+.url-click{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+  
+.swiper-pagination-bullet-active{
+    background-color: var(--green) !important;
+}
+
+
+.top-swiper .swiper-pagination{
+    top: auto !important;
+    text-align: right;
+    right: 90px !important;
+    left: auto !important;
+    bottom: 17.5px !important;
+}
+
+.swiper-pagination-bullet{
+    background-color: white;
+}
+
+.swiper-button{
+    color:var(--grey);
+}
+/*#region Swiper Navigation*/
+.top-swiper .swiper-button{
+    top: auto !important;
+    left: auto !important;
+    height: 25px;
+    transition: .2s ease-in-out; /* Animation */
+}
+
+.top-swiper .swiper-button:active{
+    color: var(--blue);
+}
+
+.top-swiper .swiper-button-prev{
+    right: 50px !important;
+    bottom: 10px !important;
+}
+
+.top-swiper .swiper-button-next{
+    right: 10px !important;
+    bottom: 10px !important;
+}
+
+
+.swiper-button-next::after,.swiper-button-prev::after {
+    font-size: 25rem;
+}
+
+.swiper-button-prev::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0a8";
+} 
+
+.swiper-button-next::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0a9";
+}
+
+
+
+/*#endregion */
+
+
+
+
+.top-swiper-slider{
+    width: 100%;
+    height: 100%;
+}
+
+.top-swiper-slider img{
+    width: 100%;
+    height: 100%;
+    float: left;
+    object-fit: cover;
+}
+
+.slider-game-info{
+    width: 100%;
+    height: 100%;
+    margin-top: -350px;
+    float: left;
+    background-image: linear-gradient(to top, #000000c0, 45% , transparent );
+    /* background-color: rgba(255, 0, 0, 0.486); */
+}
+
+.slider-game-info button img{
+    height: 35px;
+    width: auto;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Title */
+.slider-left-info .title{
+    padding: 10px 25px;
+    position: absolute;
+    width: 75%;
+    bottom: 75px;
+    box-sizing: border-box;
+    font-weight: 900;
+    font-size: 25rem;
+}
+
+/* Final Price */
+.slider-left-info .price-final{
+    padding: 25px;
+    font-size: 30rem;
+    margin: 0 70px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0% !important;
+    font-weight: 600;
+}
+
+/* Initial Price */
+.slider-left-info .price-initial{
+    padding: 25px;
+    font-size: 17rem;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0% !important;
+    font-weight: 600;
+    text-decoration: line-through;
+    color: var(--red);
+}
+
+.slider-left-info .go-to-store{
+    position: absolute;
+    bottom: 25px;
+    float: left;
+    left: 210px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+
+
+
+.slider-right-info .title{
+    padding: 10px 25px;
+    width:80%;
+    position: absolute;
+    bottom: 20%;
+    box-sizing: border-box;
+    font-weight: 900;
+    font-size: 22rem;
+}
+
+.slider-right-info .free-span{
+    position: absolute;
+    bottom: 10%;
+    font-size: 20rem;
+    color: #fff;
+    background-color: var(--green);
+    height: 20px;
+    margin-bottom: 2.5px;
+    margin-left: 25px;
+    width: 50px;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.slider-right-info .get-it-now{
+    position: absolute;
+    bottom: 37.5px;
+    float: left;
+    left: 100px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+.sliders-section{
+    width: 100%;
+    margin: 10px 0%;
+    height: auto;
+}
+
+    
+.slider-left{
+    width: 100%;
+    height: 200px;
+    float: none;
+}
+
+
+.slider-right{
+    width: 100%;
+    margin-top: 10px;
+    height: 200px;
+    margin-left: 0%;
+    float: none;
+}
+
+.slider-game-info{
+    width: 100%;
+    height: 100%;
+    margin-top: -200px;
+}
+
+
+
+
+/* Title */
+.slider-left-info .title{
+    padding: 7px 25px;
+    width: 100%;
+    bottom: 50px;
+    font-size: 25rem;
+}
+
+/* Final Price */
+.slider-left-info .price-final{
+    font-size: 25rem;
+    margin: 0 70px;
+    bottom: -5% !important;
+}
+
+/* Initial Price */
+.slider-left-info .price-initial{
+    font-size: 17rem;
+    bottom: -5% !important;
+}
+
+.slider-left-info .go-to-store{
+    bottom: 10px;
+    right: 0 !important;
+    left: 175px;
+}
+
+.top-swiper .swiper-button,.top-swiper .swiper-pagination{
+    display: none;
+}
+
+
+
+
+
+.slider-right-info .title{
+    width:100%;
+    position: absolute;
+}
+
+.slider-right-info .free-span{
+    bottom: 2%;
+}
+
+.slider-right-info .get-it-now{
+    bottom: 2%;
+}
+
+
+.slider-right .swiper-button,.top-swiper .swiper-pagination{
+    display: none;
+}
+
+
+
+
+}
+
+
+

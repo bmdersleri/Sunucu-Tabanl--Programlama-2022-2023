@@ -1,0 +1,297 @@
+.header{
+  width: 100%;
+  height: 75px;
+  text-align: center;
+  color: #F2F2F2;
+  justify-self: center;
+  align-items: center;
+  display: flex;
+  background-color: var(--top-color);
+}
+
+
+.header-left{
+  width: 35%;
+  margin-left: 15%;
+  float: left;
+  height: 100%;
+}
+
+.header-logo{
+  width: 30%;
+  height: 100%;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  float: left;
+}
+
+.header-logo img{
+  width: 125px;
+}
+
+.header-items{
+  width: 25%;
+  float: left;
+}
+
+.header-left ul{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.header-left ul:after {content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+.header-left ul li{
+  float: left;
+  width: 25%;
+  height: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: var(--light-grey);
+  cursor: pointer;
+  transition: .2s ease-in-out; /* Animation */
+  font-size: 16rem;
+  font-weight: 600;
+}
+
+.header-left ul li:first-of-type{
+  color: var(--grey);
+}
+
+.header-left ul li:hover{
+  color: var(--grey);
+}
+
+
+
+.search{
+  background-color: var(--back-color);
+  width: 35%;
+  height: 30px;
+  padding:10px 0;
+  border-radius: 5px;
+}
+
+.search i{
+  width: 5%;
+  color: var(--light-grey);
+  font-size: 20rem;
+  float: left;
+  margin-left: 2%;
+  margin-top: 6px;
+}
+
+
+.search input{
+  width: 85%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  height: 100%;
+  color: var(--light-grey);
+  font-size: 21rem;
+  float: left;
+  margin-left: 1%;
+}
+
+
+
+.search-results{
+  position: relative;
+  display: none;
+  width: 100%;
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: var(--back-color);
+  margin: 40px 0%;
+  z-index: 99999999 !important;
+}
+
+.search-result-item{
+  width: 100%;
+  padding: 5px 20px;
+  height: 60px;
+  box-sizing: border-box;
+  background-color: var(--top-color);
+  cursor: pointer;
+}
+
+.result-item-image{
+  width: 100px;
+  height: 100%;
+  float: left;
+}
+
+.result-item-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.result-item-name{
+  width: 65%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  height: 100%;
+  display:flex;
+  align-items: center;
+  text-align: left;
+  float: left;
+  font-size: 18rem;
+  font-weight: bolder;
+}
+
+.result-item-price{
+  width: calc(35% - 100px);
+  float: left;
+  height: 100%;
+}
+
+.result-item-price h5{
+  width: 25%;
+  height: 100%;
+  text-align: right;
+  color: var(--red);
+  text-decoration: line-through;
+  float: left;
+  justify-content: right;
+  align-items: center;
+  display: flex;
+  font-size: 14rem;
+  font-weight: bolder;
+}
+
+.result-item-price h3{
+  width: 75%;
+  height: 100%;
+  color: white;
+  float: left;
+  padding: 0 10px;
+  box-sizing: border-box;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  font-size: 22rem;
+  font-weight: bolder;
+}
+
+
+
+.result-item-no-result{
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 18rem;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+.header{
+  width: 100%;
+  height: auto;
+  display: block;
+  padding-bottom: 10px;
+}
+  
+
+.header-left{
+  width: 100%;
+  margin-left: 0%;
+  float: none;
+  height: 75px;
+}
+
+.header-items{
+  display: none;
+}
+
+.header-logo{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+
+.header-logo img{
+  width: 150px;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.search{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.search i{
+  width: 10%;
+  color: var(--light-grey);
+  /* font-size: 20px; */
+}
+
+
+
+
+
+
+.search-result-item{
+  width: 100%;
+  padding: 5px 10px;
+  height: 50px;
+}
+
+.result-item-image{
+  width: 50px;
+}
+
+.result-item-name{
+  width: 50%;
+  padding: 0 10px;
+  font-size: 16rem;
+}
+
+.result-item-price{
+  width: calc(50% - 50px);
+}
+
+.result-item-price h5{
+  width: 35%;
+  margin-left: 5%;
+  font-size: 12rem;
+}
+
+.result-item-price h3{
+  width: 60%;
+  font-size: 16rem;
+}
+
+
+
+
+}

@@ -1,0 +1,480 @@
+.game-card--prices ul{
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  float: left;
+}
+
+.game-card--prices ul:not(:first-of-type){
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.top{
+  width: 60%;
+  height: 600px;
+  margin: 10px 15%;
+  padding: 25px 5%;
+  background-color:var(--top-color);
+}
+
+
+.top--h2title{
+  color: #fff;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+.top-left{
+  width: 20%;
+  height: 100%;
+  float: left;
+  padding: 0 2%;
+}
+
+.top-left h2{
+  height: 10%;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  box-sizing: border-box;
+  color: var(--grey);
+}
+
+.top-left-center{
+  width: 100%;
+  height: 523px;
+  border-radius: 30px;
+  cursor: pointer;
+  overflow: hidden;
+  border: 2px solid var(--purple-color);
+  box-shadow: 0px 10px 20px black;
+  transition: .25s ease-in-out; /* Animation */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.top-left-center img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .25s ease-in-out; /* Animation */
+}
+
+.top-left-center:hover{
+  box-shadow: 0px 10px 20px var(--purple-color);
+}
+
+.top-left-center:hover > img{
+  transform: scale(1.1);
+}
+
+.game-bottom-info{
+  position: relative;
+  width: 100%;
+  height: 50%;
+  background-image: linear-gradient(to top, #00000091, 85% , transparent );
+  margin-top: -235px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+
+.game-bottom-info h2{
+  font-size: 27px;
+  font-weight: bold;
+  color: white;
+  /* margin-top: 60px; */
+  margin-bottom: 0 !important;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+
+.game-bottom-info .game-card--prices{
+  list-style: none;
+  width: 100%;
+  float: left;
+  height: 50%;
+}
+
+
+.game-bottom-info .game-card--prices ul{
+  border-radius: 0;
+}
+
+.game-bottom-info .game-card--prices ul li{
+  color: var(--grey);
+}
+
+.game-bottom-info .game-card--prices ul li img{
+  width: 35px;
+  height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+.top-right{
+  width: 72%;
+  height: 100%;
+  float: left;
+  padding: 0 2%;
+}
+
+.top-right h2{
+  height: 10%;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  color: var(--grey);
+  box-sizing: border-box;
+}
+
+.top-right > ul{
+  height: 90%;
+  padding: 0 !important;
+  margin: 0;
+}
+
+.top-right > ul:after {content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}/*Kapsayamama Sorunu*/
+
+.horizontal-game-card{
+  position: relative;
+  width: 48%;
+  height: 160px;
+  float: left;
+  padding: 2%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: .25s ease-in-out; /* Animation */
+  cursor: pointer;
+}
+
+.horizontal-game-card:not(:nth-child(2n +1)){
+  margin-left: 2%;
+}
+
+/*Select all except first 2*/
+.horizontal-game-card:nth-child(n):not(:first-child):not(:nth-child(2)){
+  margin-top: 2%;
+}
+
+.horizontal-game-card:hover{
+  background-color:var(--purple-color) ;
+  /* transform: scale(1.05); */
+  box-shadow: 0px 5px 10px black;
+}
+
+
+.horizontal-game-card:hover > .game-card-info .game-card--prices ul .game-price,.horizontal-game-card:hover > .game-card-info h2{
+  color: var(--grey);
+}
+
+
+.horizontal-game-card > img{
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding: 0 2%;
+  box-sizing: border-box;
+}
+
+.game-card-info{
+  position: relative;
+  width: 50%;
+  margin-left: 50%;
+  height: 100%;
+}
+
+.game-card-info h2{
+  font-size: 18px;
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+  margin: 0;
+  padding: 2% 5%;
+  box-sizing: border-box;
+  color: var(--grey-title);
+  float: left;
+  transition: .25s ease-in-out; /* Animation */
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*#region game-card--prices*/
+
+.game-card--prices ul{
+  transition: .25s ease-in-out; /* Animation */
+}
+
+
+.game-card--prices ul li{
+  width: 100%;
+  margin: 0 !important;
+  float: left;
+  font-size: 15px;
+  height: 40%;
+  margin: 0;
+  text-align: center;
+  transition: .2s ease-in-out; /* Animation */
+}
+
+.game-card--prices ul li:first-of-type{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+}
+
+
+.game-card--prices .game-price{
+  padding: 0;
+  margin: 0;
+}
+
+.game-card--prices ul li img{
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin:0;
+  transition: .15s ease-in-out; /* Animation */
+}
+
+
+.game-card--prices ul:hover{
+  background-color: var(--purple-color);
+}
+
+
+.game-card--prices ul:hover > li img{
+  transform: scale(1.35);
+}
+
+.game-price{
+  color: var(--grey-title);
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.game-price span{
+  padding: 0 2px;
+}
+
+
+/*#endregion */
+
+
+
+
+
+
+
+.game-card-info .game-card--prices{
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 60%;
+}
+
+
+.game-card-info .game-card--prices ul{
+  width: 50%;
+  height: 100%;
+  border-radius: 0;
+}
+
+.game-card-info .game-card--prices ul li img{
+  height: 25px;
+  width: auto;
+}
+
+
+
+
+
+
+
+.bottom{
+  width: 60%;
+  /* height: 840px; */
+  margin: 10px 0 10px 15%;
+  padding: 25px 5%;
+  /* background: red; */
+  background-color:var(--top-color);
+}
+
+
+.bottom:after {content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}/*Kapsayamama Sorunu*/
+
+
+.title{
+  box-sizing: border-box;
+  width: 43%;
+  float: left;
+  box-sizing: border-box;
+  color: var(--grey);
+  padding: 0 2%;
+}
+
+.title:not(:first-of-type){
+  margin-left: 8%;
+}
+
+
+.bottom-game-list{
+  width: 49%;
+  height: 100%;
+  padding: 2%;
+  float: left;
+  box-sizing: border-box;
+}
+
+
+.bottom .bottom-game-list:not(:first-of-type){
+  margin-left: 2%;
+}
+
+
+
+.bottom-game-card{
+  width: 100%;
+  height: 125px;
+  /* border: 2px solid var(--purple-color); */
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: .25s ease-in-out; /* Animation */
+}
+
+.bottom-game-card:hover{
+  background-color: var(--purple-color);
+  box-shadow: 0px 5px 10px black;
+}
+
+.bottom-game-card:hover > .game-card--info h2,.bottom-game-card:hover > .game-card--prices ul li{
+  color: var(--grey);
+}
+
+.bottom-game-card:not(:first-child){
+  margin-top: 30px;
+}
+
+.bottom-game-card img{
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px !important;
+  height: 100%;
+}
+
+.game-card--image{
+  height: 100%;
+  width: 25%;
+  float: left;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.game-card--info{
+  width: 45%;
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.game-card--info h2{
+  text-align: left;
+  font-size: 18px;
+  color: var(--grey-title);
+  transition: 0.2 ease-in-out;
+}
+
+.game-card--prices{
+  width: 30%;
+  height: 100%;
+  float: left;
+  align-items: center;
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+    .game-card-info ul li:after {content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+  }/*Kapsayamama Sorunu*/

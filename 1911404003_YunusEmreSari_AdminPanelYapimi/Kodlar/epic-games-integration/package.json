@@ -1,0 +1,24 @@
+{
+  "name": "exit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "nuxi": "^3.0.0",
+    "puppeteer": "^19.3.0",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.6",
+    "string-similarity": "^4.0.4",
+    "undici": "^5.14.0",
+    "xhr2": "^0.2.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
